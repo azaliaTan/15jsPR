@@ -1,0 +1,43 @@
+
+
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.block{
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+button{
+    padding: 15px 25px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    text-align: center;
+    height: 80px;
+    cursor: pointer;
+   
+
+}
+
+.go{
+   background-color: rgba(0, 128, 0, 0.401);
+   color: white;
+    
+}
+
+.stop{
+    background-color: rgba(128, 0, 0, 0.401);
+    color: white;
+    color: #000002;
+     
+ }
